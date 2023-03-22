@@ -1,0 +1,12 @@
+#Par ou Impar
+
+print("Digite 3 valores e veja se são números pares ...")
+a = int(input("1º número ..."))
+b = int(input("o 2º"))
+c = int(input('3º...'))
+ra= a%2
+rb= b%2
+rc= c%2
+print(f'{a} é:' , ra==0 )
+print(f'{b} é :', rb==0)
+print (f'{c} é :', rc==0)
