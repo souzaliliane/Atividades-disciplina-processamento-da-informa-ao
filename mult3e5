@@ -1,0 +1,14 @@
+n= int(input('Digite um número '))
+c = 0
+cont = 0
+
+print(f' Os Múltiplos de 3 e 5 entre 0 e {n} :')
+
+while (c < n):
+    if c % 3 ==0 or c % 5 ==0:
+        cont += 1
+        print(c, end=' ')
+    c = c+1
+print(f'\n **\33[1;31m [no total são {cont} números]\33[m **')
+
+
