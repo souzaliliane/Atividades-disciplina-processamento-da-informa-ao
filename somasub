@@ -1,0 +1,10 @@
+#soma do 1º e 3º = a subtração do 2 e 4º
+
+a = int(input("Digite o primeiro número ..."))
+b = int (input ("Digite o segundo número"))
+c = int(input("Digite o terceiro número"))
+d = int( input("Digite o quarto número"))
+soma = a + c
+sub = b - d
+print(soma == sub)
+
